@@ -21,7 +21,7 @@ describe('centsToDecimals function', () => {
     // console.log(centsToDecimals('12345') === undefined);
 
     // ... complete the test assertion below
-    expect(Function_To_Test(parameter)).toEqual(Expected_Result);
+    expect(centsToDecimals('12345')).toEqual(undefined);
   });
 
   it('Returns undefined when NaN value is passed as a parameter.', () => {
